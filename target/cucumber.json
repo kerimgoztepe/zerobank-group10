@@ -1,0 +1,353 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-09T15:11:01.318Z",
+        "line": 19,
+        "name": "Trying to Login with invalid credentials",
+        "description": "",
+        "id": "login-functionality;trying-to-login-with-invalid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7853579200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1728244800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user enters \"username\" and \"wrongpassword\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"wrongpassword\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.LoginDefs.the_user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 122080100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the system should display \"Login and/or password are wrong.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login and/or password are wrong.\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.LoginDefs.the_system_should_display(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-09T15:11:11.222Z",
+        "line": 20,
+        "name": "Trying to Login with invalid credentials",
+        "description": "",
+        "id": "login-functionality;trying-to-login-with-invalid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 232229200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1019380700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user enters \"wrongusername\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"wrongusername\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.LoginDefs.the_user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46082200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the system should display \"Login and/or password are wrong.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login and/or password are wrong.\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.LoginDefs.the_system_should_display(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-09T15:11:12.527Z",
+        "line": 21,
+        "name": "Trying to Login with invalid credentials",
+        "description": "",
+        "id": "login-functionality;trying-to-login-with-invalid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 212809500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 807198400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user enters \"\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.LoginDefs.the_user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58581200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the system should display \"Login and/or password are wrong.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login and/or password are wrong.\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.LoginDefs.the_system_should_display(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-09T15:11:13.612Z",
+        "line": 22,
+        "name": "Trying to Login with invalid credentials",
+        "description": "",
+        "id": "login-functionality;trying-to-login-with-invalid-credentials;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 195249100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 840695100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user enters \"username\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.LoginDefs.the_user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59097300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the system should display \"Login and/or password are wrong.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login and/or password are wrong.\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.LoginDefs.the_system_should_display(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-09T15:11:14.713Z",
+        "line": 23,
+        "name": "Trying to Login with invalid credentials",
+        "description": "",
+        "id": "login-functionality;trying-to-login-with-invalid-credentials;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 180561700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.zerobank.stepdefinitions.LoginDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 770735300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user enters \"\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.LoginDefs.the_user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50578000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the system should display \"Login and/or password are wrong.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login and/or password are wrong.\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.zerobank.stepdefinitions.LoginDefs.the_system_should_display(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]
